@@ -4,6 +4,7 @@
 
 ## 目录
 
+- [OpenSpec 手把手使用指南（命令详解与实战示例）](./OPENSPEC-USER-GUIDE.md)
 - [什么是 Spec-Driven Development](#什么是-spec-driven-development)
 - [工具对比](#工具对比)
 - [环境要求](#环境要求)
