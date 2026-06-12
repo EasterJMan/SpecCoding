@@ -4,7 +4,7 @@
 
 ## 目录
 
-- [OpenSpec 手把手使用指南（命令详解与实战示例）](./OPENSPEC-USER-GUIDE.md)
+- [OpenSpec 手把手使用指南（命令详解与实战示例）](./OPENSPEC-USER-GUIDE.md) — **含「项目还没有 OpenSpec 时」首次接入**
 - [什么是 Spec-Driven Development](#什么是-spec-driven-development)
 - [工具对比](#工具对比)
 - [环境要求](#环境要求)
@@ -175,11 +175,15 @@ specify init --here --integration cursor-agent --force --ignore-agent-tools
 
 ## 在 Cursor 中使用
 
+> **项目里还没有 `openspec/`？** 请先阅读 [OPENSPEC-USER-GUIDE.md — 项目还没有 OpenSpec 时](./OPENSPEC-USER-GUIDE.md#项目还没有-openspec-时首次接入)，完成 `openspec init` 后再看下文。
+
 ### 前置步骤
 
-1. 用 Cursor 打开已初始化的项目根目录
-2. **重启 Cursor**（Slash 命令和 Skills 需重启后生效）
-3. 在 Agent 对话中使用 Slash 命令或 Skills
+1. 本机已安装 OpenSpec CLI（`npm install -g @fission-ai/openspec@latest`）
+2. 项目根目录已执行 `openspec init . --tools cursor --force`
+3. 用 Cursor 打开**项目根目录**
+4. **重启 Cursor**（Slash 命令和 Skills 需重启后生效）
+5. 在 Agent 对话中使用 Slash 命令或 Skills
 
 ---
 
